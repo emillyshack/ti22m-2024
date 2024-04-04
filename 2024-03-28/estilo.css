@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <style>
+    
+
+        h1{ 
+            color: rgb(35, 6, 65);
+            background-color: rgb(250, 196, 206); text-align: center;
+        }
+        
+        p{
+        text-align: center;
+        color: black;
+        font-family:'Times New Roman', Times, serif
+
+        }
+        
+        span{ 
+            color: rgb(236, 8, 8);
+        }
+        
+    </style>
+    </head> 
+<body>
+    <h1 style="color: blue;
+    ">Juliana Moreira</h1>
+    <!-- ta definindo uma característica para a tag e sempre prevaleserá o definido aqui- CSS -->
+    <p>kjahsddddddddddddddddddddddddddddddddddddd <strong>asdadsx</strong>ddddddddd<span>asdcads</span>asdasdc</p>
+</body>
+</html>
