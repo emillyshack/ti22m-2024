@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>]
+    <style>
+
+* { font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+*{background-color: rgb(0, 0, 0)}
+
+span {background-color: rgb(179, 179, 172);}
+    <!-- id (identificador) pode ser usado uma só vez n atag, diferente de class (que pode ser usado várias) -->
+
+h1 {color:;}
+
+.destaque{color: rgb(24, 104, 24)}
+
+h2{background-color:rgb(131, 116, 145);}
+
+h1#titulo_especial{
+    color: chartreuse;
+}
+#paragráfo central{
+    color: darkslategrey;
+}
+.cor.primaria{
+    color: darkgrey}
+
+.cor.secundaria{ color: rgb(171, 255, 227)}
+p {background-color: rgb(184, 231, 215);}
+
+    </style>
+</head>
+
+<body>
+
+    <h1 id ="hi#titulo_especial" class="destaque">TITULOOOO 1 </h1>  
+
+    <h2>tituloooo 1.2</h2>
+<P class = ".cor.secundaria">ssim como a junção de a + b saiba que não o mesmo que a</P>
+
+<h1 class="destaque">TITULO IHUUL</h1>
+
+<h2>tituloooo 2.2</h2> 
+
+<P class = ".cor.secundaria">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero eum unde voluptatem sapiente saepe, corrupti delectus veniam ab debitis <span>estou de olho em você</span>
+    vel maxime earum error quidem sit libero culpa! Dolorem, quibusdam voluptatem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quaerat hic, incidunt eos quia eligendi expedita omnis, provident maiores qui sed commodi non iste iusto fuga labore at dicta unde!!</P>
+
+</body>
+</html>
