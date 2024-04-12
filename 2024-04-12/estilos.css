@@ -1,0 +1,16 @@
+
+* {font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo {
+    text-shadow: 0px 4px 3px rgb(136, 190, 221), 0px -5px 3px rgb(212, 235, 247);
+    text-align: center;}
+
+.formula {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(197, 233, 241);
+    text-align: center;
+    border: 2px solid darkblue;
+    font-size: 2em; 
+    
+}
