@@ -1,0 +1,21 @@
+* { font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.h1 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+      
+.jesus{ 
+    color: red
+    }
+.sup{
+    color: black;
+    line-height: 0.8;
+ }
+p {
+    text-indent: 20px;
+}
