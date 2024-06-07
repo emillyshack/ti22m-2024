@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+    lin[]
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Lista e cores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
     <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+        :root{
+            --cor-fundo:rgb(255, 255, 255);  
+            --cor-primaria: black;
+            --cor-secundaria: rgb(229, 219, 219);
+
+            --font-principal: 10px "Hedvig Letters Serif"
+
+            --altura-cabeca: 150px;
+            }
+            
 
         *{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+            font-family: var(--font-principal);
         }
+        body { background-color: var(--cor-fundo);
+            font-family: var(--fonte-principal)
+
+
+        
+        }
+
         .container {
-            border: 1px solid black;
-            border-radius: ;
+            border: 1px solid rgb(234, 221, 221);
+            border-radius: 10px;
+            padding: 10px solid rgb(32, 32, 164)
+            margin: 10px;
+            background-color: var(--cor-primaria);
+
         }
+        .containerh1 {
+            margin-bottom: 10px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+
+        }
+        .container ul{
+            margin-left: 15px;
+            color: white;
+            font-family: var(--fonte-principal);
+        
+
+        }
+        .cabecalho {
+            background-color: rgb(110, 104, 104);
+            height: var(--altura-cabeca);
+            overflow: scroll;
+        }
+
     </style>
+</head>
+<body>
+    <div>
+        <div class="cabecalho">
+            <p>Cabeaaaa</p>
+            <p>Cabeaaaa</p>
+            <p>Cabeaaaa</p>
+            <p>Cabeaaaa</p>
+            <p>Cabeaaaa</p>
+        </div>
+
+        <div class="container">
+        <h1 class="containerh1" ><pre>Lista de Tarefas estilos dark massas </pre></h1>
+        <ul>
+        <li>lista 1</li>
+        <li>lista 2</li>
+        <li>lista 3</li>
+    </ul>
+        
+    </div>
+    
+    
 </body>
 </html>
