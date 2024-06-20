@@ -3,54 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colocando imagem pela primeira vezzz</title>
+    <title>Teste das casas</title>
     <link rel="stylesheet" href="imagem.css">
-    <style>
-        * { 
-            padding: 0;
-            margin: 0;
-            box-sizing: 0;
+    <link rel="stylesheet" href="imagens_filme.css">
 
-        }
-        body { 
-            height: 200vh;
-        }
 
-        .principal { 
-            background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtOzd2rknav3nmFJ5N4VJFzwUaEAWtCcud0C5xCTXJ68WQirGLvZ41A1ZnKRx3M4yyPlNrZS7zZEIPn9D_zQJiSoxaEE5uQdzWrQuCPoS9ux01x88uNFaTg1c9nie4eqrqYVW4Aog_w8lY/s1600/HarryPotterCaderno.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position:top;
-            background-attachment:fixed;
-            height: 500px;
-            margin-top: 200px; }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
 
-    </style>
+    
+    
 </head>
 
+
 <body>
-    <div class="container"> 
-        <ul class="menu">
-            <li><a href="#cabecalho"> Cabeçalho</a></li>
-            <li><a href="#seçao1"> Seção 1</a></li>
-            <li><a href="secao2"> Seção 2</a></li>
-        </ul>
+    
+    <script>
+        function displayTime() {
+          var date = new Date();
+          var hours = date.getHours();
+          var minutes = date.getMinutes();
+          var seconds = date.getSeconds();
+          var time = hours + ":" + (minutes < 10 ? "0" : "") + minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+          document.getElementById("clock").innerText = time;
+        }
+        
+        // Atualizar a cada segundo
+        setInterval(displayTime, 1000);
+        
+        // Mostrar a hora atual assim que a página for carregada
+        displayTime();
+    </script>
 
-        <div id="cabecalho">
-            <h3>Seção Principal de nossa escola</h3>
-        </div>
+<div class="container">
+    
+    <div> <img src="https://i.pinimg.com/564x/76/04/74/760474ade9c430069ba15cca629cc416.jpg" width="50%" height="400vh">
+        
+    <ul class="menu" class="fonte">
+      <li class="fonte"><a href="#cabecalho">Pulp Fiction</a></li>
+      <li><a href="#secao1"> O tiroteio</a></li>
+      <li><a href="#secao2">A dança</a></li>
+    </ul></div>
+    
 
-        <div id="secao1"> 
-            <div class="container">
-            <h3>Cabeçalho</h3>
-        </div>
-
-        <div id="secao2"> 
-            <div class="cabecalho">
-                <h3>Cabeçalho</h3>
-        </div>
-    <div class="principal">
-
+    <div id="cabecalho" class="fonte">
+      <h3>Cabeçalho</h3>
     </div>
+    
+    <div id="secao1" class="fonte">
+      <h3>Os dançarinos</h3>
+      <img src="https://media.newyorker.com/photos/5ad11cf551fedf7258aa3c06/master/pass/941010_ra504.jpg">
+    </div>
+    
+    <div id="secao2">
+
+      <h3>Seção 2</h3>
+    </div>
+    
+    <a id="voltar" href="&uarr"></a>
+    </div>
+
+    
 </body>
 </html>

@@ -1,0 +1,32 @@
+
+img#foto{
+    width: 50px;
+}
+img.foto_principal { 
+    background-image: url(https://www.pulpfiction.de/wp-content/uploads/2011/06/1_02.jpg)
+
+}
+img.foto2 {
+    background-image: url(https://media.newyorker.com/photos/5ad11cf551fedf7258aa3c06/master/pass/941010_ra504.jpg)
+
+   
+    
+ }
+ img.foto1{
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+ }
+ img.fotoprin{
+    background-image: url(https://i.pinimg.com/564x/76/04/74/760474ade9c430069ba15cca629cc416.jpg);
+    background-color: black;
+    background-position:center;
+    height: 500px;
+    margin-top: 100px;
+ }
+ 
