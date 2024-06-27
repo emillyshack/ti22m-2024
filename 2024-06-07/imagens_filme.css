@@ -8,7 +8,8 @@ img.foto_principal {
 }
 img.foto2 {
     background-image: url(https://media.newyorker.com/photos/5ad11cf551fedf7258aa3c06/master/pass/941010_ra504.jpg)
-
+    height: 500px;
+    margin-top: 100px;
    
     
  }

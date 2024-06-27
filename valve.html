@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valve</title>
+ 
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        :root{
+            --fonte-valvegames: 'Work Sans';
+        }
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        .menu{
+            background-color: rgb(4, 19, 61);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #list{
+            color: white;
+            font-size: 30px;
+            display: inline-block;
+            padding-left: 10px;
+            margin-right: 15px;
+        }
+        .titulo{
+            display: flex;
+            align-items: start;
+
+        }
+        .painel{
+            background-image: url(https://art.ngfiles.com/images/3357000/3357090_xx6tr6cy6xx_i-oversimplified-valve-s-logo.png?f1690386068);
+            background-position: bottom;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+        .objectImage {
+            width: 50vh;
+            height: 100vh;
+    
+        }
+        
+        #Jogos{
+            background-color: rgb(11, 78, 90);
+            height: 100vh;
+            border: 10px solid black;
+        
+
+            flex-direction: unset;
+            align-content: space-around; 
+
+            display: flex;
+        
+
+            justify-content: space-around;
+            align-items: flex-start;
+            
+            flex-wrap: wrap;
+            align-content: space-around;
+
+    
+        }
+        .boxes{
+            width: 250px;
+            height: 350px;            
+            border: 5px solid white;
+            color: white;  
+            border-radius: 15px;
+            background-color: rgb(0, 0, 0);
+            
+        
+        }
+        
+
+      
+        .exp_game{
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+            font-family: var(--fonte-valvegames);
+            
+        }
+
+
+        .tmtext{
+            font-size: 11px;
+            text-align: center;
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+        
+        #Jogos2{
+            background-color: rgb(8, 55, 63);
+            height: 100vh;
+            flex-direction: unset;
+            align-content: space-around; 
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        #Biblioteca{
+            background-color: rgb(3, 34, 36);
+            height: 100vh;
+            align-content: space-around; 
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content: space-around;
+        
+        }
+   
+   
+        
+        .Seu{
+            color: aliceblue;
+            font-family: var(--fonte-valvegames);
+            font-size: 50px;
+            display: flex;
+            justify-content: start;
+        }
+        
+        .fonte{
+            font-family: var(--fonte-valvegames);
+        }
+
+        #comunidade{
+            background-color: rgb(4, 39, 39);
+            height: 100vh;
+        }
+        
+     
+    </style>
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li id="list" class="fonte"><a href="#Jogos">Jogos</a></li>
+                <li id="list" class="fonte"><a href="#Biblioteca">Biblioteca</a></li>
+                <li id="list" class="fonte"><a href="#comunidade">Comunidade</a></li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_2016_logo_black.svg/2560px-Steam_2016_logo_black.svg.png" alt="" height="90" width="300">
+        </div>
+
+        <div class="painel">   
+        </div>      
+        <div id="Jogos">
+            <div class="boxes"><img  src="https://upload.wikimedia.org/wikipedia/commons/8/89/Half-Life_lambda_logo.svg" alt="dw" height="150" width="240">
+                <h1 class="exp_game" id="botao">Half-Life</h1>
+                <br>
+                <p class="tmtext">Jogo segue a história de Freeman, uma luta contra criaturas alienígenas após um experimento catastrófico em um laboratório de pesquisa.</p>
+                <br>
+                <p class="exp_game">R$20,69</p>
+            </div>
+
+            <div class="boxes"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Half-Life_2_Logo.svg/1184px-Half-Life_2_Logo.svg.png" alt="dw" height="157" width="220">
+            <h1 class="exp_game">Half-Life 2</h1>
+            <br>
+            <p class="tmtext"> Destaca-se pela narrativa complexa, mecânica de física avançada e influência significativa no gênero de jogos de tiro em primeira pessoa.
+            </p>
+            <br>
+            <br>
+            <p class="exp_game"><a href="https://store.steampowered.com/app/220/HalfLife_2/">R$30,90</a></p>
+            </div>
+
+            <div class="boxes"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Half-Life_lambda_logo.svg" alt="dw" height="157" width="220">
+            <h1 class="exp_game">Half-Life: Alyx</h1>
+            <br>
+            <p class="tmtext">"Counter-Strike: Global Offensive" (CS: GO) é um jogo de tiro em primeira pessoa. Nele, Terroristas e Contra-Terroristas se enfrentam em modos como desarmamento de bombas e resgate de reféns.</p>
+            <br>
+            <p class="exp_game">Free</p>
+            </div>
+
+            <div class="boxes"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Team-Fortress-2-logo.png" alt="" height="150" width="240" >
+            <h1 class="exp_game">Team Fortress 2</h1>
+            <br>
+            <p class="tmtext">Jogo de tiro em primeira pessoa. É conhecido por suas classes distintas, gameplay estratégico e humor característico.
+            </p>
+            <br>
+            <p class="exp_game">Free</p>
+            </div>
+
+        </div>
+        <div id="Jogos2">
+            <div class="boxes"><img  src="https://images7.alphacoders.com/625/625395.jpg" alt="dw" height="150" width="240">
+    
+                <h1 class="exp_game">Left 4 Dead</h1>
+                <br>
+                <p class="tmtext">"Left 4 Dead" é um jogo de tiro em primeira pessoa cooperativo, desenvolvido pela Valve, onde até quatro jogadores lutam contra hordas de zumbis em cenários pós-apocalípticos.</p>
+                <br>
+                <p class="exp_game">R$32,99</p>
+            </div>
+
+            <div class="boxes"><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/portal-9-logo.png" alt="dw" height="150" width="240">
+            <h1 class="exp_game">Portal</h1>
+            <br>
+            <p class="tmtext"> O jogador controla Chell, que deve usar a "Portal Gun" para criar portais interespaciais e resolver desafios em um laboratório de testes controlado pela inteligência artificial GLaDOS.</p>
+            <br>
+            <p class="exp_game">R$32,99</p>
+            </div>
+
+            <div class="boxes"><img src="https://cdn.custom-cursor.com/packs/1783/pack2410.png" alt="" height="150" width="240" >
+            <h1 class="exp_game">Portal 2</h1>
+            <br>
+            <p class="tmtext"> Chell acorda em uma instalação abandonada e, com a ajuda do robô Wheatley, tenta escapar do complexo da Aperture Science. No processo, ela reativa acidentalmente a inteligência artificial GLaDOS</p>
+            <br>
+            <p class="exp_game">R$32,99</p>
+            </div>
+
+            <div class="boxes"><img src="https://1000logos.net/wp-content/uploads/2019/03/Dota-2-Logo.png" alt="dw" height="157" width="245">
+            <h1 class="exp_game">Dota 2</h1>
+            <br>
+            <p class="tmtext">"Dota 2" é um jogo de estratégia e ação multiplayer online, duas equipes de cinco jogadores competem para destruir a "Ancient" do time adversário, localizada em sua base.
+            </p>
+            <br>
+            <p class="exp_game">Free</p>
+            </div>
+
+        </div>
+
+        <div id="Biblioteca">
+            <h1 class="Seu">Seus Jogos:</h1>
+            <div class="boxes">
+                <img  src="https://ih1.redbubble.net/image.4940982788.8058/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="dw" height="150" width="240">
+                <h1 class="exp_game">CS-GO 2</h1>
+                <br>
+                <p class="tmtext"></p>
+                <br>
+                <p class="exp_game"  id="botao"><a href="https://www.counter-strike.net/home?l=portuguese">Jogar</a></p>
+            </div>
+        </div>
+
+        <div id="comunidade">
+            <div class="imagem">
+                <img class="objectImage" src="https://i.pinimg.com/originals/b2/88/69/b28869ca0b35fbcc404a2b142287ed00.png">
+            </div>   
+        </div>
+    </div>
+    
+</body>
+</html>
