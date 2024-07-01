@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+    }
+    body{
+        background-color: rgb(75, 156, 156);
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        border: 10px solid white ;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column ;
+    }
+    .list-item{
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px rgb(58, 154, 149);
+    }
+
+    
+    .content{
+        margin-right: 20vh ;
+        margin-left: 3vh;
+        display: flex;
+        flex-direction: column;
+        flex-grow:1 ;
+    }
+
+    .content span{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .content div{
+        color: grey;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    img{
+        background-color: #ddd;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;  
+        margin: 10px;
+        flex-shrink: 0;
+}
+    h1{
+        display: flex;
+        justify-content: center;
+        border: solid rgb(140, 207, 207) ;
+        border-radius: 10px;
+        margin-left:70px ;
+        margin-right: 70px;
+        background-color: rgb(11, 143, 143);
+        color: white;
+
+    }
+
+
+</style>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <ul class="list">
+                <h1>Our contacts</h1>
+                <li class="list-item">
+                    <div class="image">
+                        <img src="https://randomuser.me/api/portraits/women/48.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <span>Kathy Carlson</span>
+                        <div>
+                            5245 Homestead Rd
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="image">
+                        <img src="https://randomuser.me/api/portraits/women/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <span>Penny Bladeu</span>
+                        <div>
+                            940 Prospect Rd
+                    </div>
+                </li> 
+                <li class="list-item">
+                    <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/26.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <span>Ryan Stone</span>
+                        <div>
+                            4146 Locust Rd
+                    </div>
+                    <li class="list-item">
+                        <div class="image">
+                            <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <span>Thomas Cox</span>
+                            <div>
+                                2603 Valwood Pkwy
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
