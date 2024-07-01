@@ -4,25 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício</title>
+    <title>Opções de compra para você</title>
 
     <style>
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            background-color: rgb(59, 59, 182);
         }
-      
+        body{
+            background-color: blue;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            
+            
+
+        }
+        .card{
+            border-radius: 10px;
+            border: 10px solid white;
+            width: 45vh;
+            height: 60vh;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            background-color: white;
+
+             
+
+        }
+        .plano-nome{
+            text-align: center;
+            font-weight: bold;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+
+        }
+        .plano-valor {
+            text-align: center;
+            font-weight: bold;
+            color: blue;
+            font-size: x-large;
+        }
+        .plano-comprar{
+            border: 10px solid blue;
+            background-color: blue;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+            margin-right: 30px;
+            height: 4.5vh;
+        }
+        .bgbox {
+            background-color: white;
+        }
+        ul{
+            list-style-type: none;
+            text-align: center;
+            
+        }
+
+
     </style>
 
 </head>
 <body>
-
+<h1>Planos</h1>
     <div class="container">
-
-        <h1>Planos</h1>
-
         <div class="card">            
             <div class="plano-nome">Starter</div>
             <div class="plano-valor">R$ 50,00</div>
