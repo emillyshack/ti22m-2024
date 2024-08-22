@@ -9,6 +9,14 @@
 <body>
     <H1>Formulários</H1>
     <form action="#" method="get"></form>
-    <input type="text" placeholder="coloque sue nome">
+    <label for="nomeUsuario">Nome aqui</label>
+    <input type="text" placeholder="digite seu nome">
+
+    <label for="emailUauario">E-mail</label>
+    <input type="text" placeholder="digite seu email">
+
+    <label for="senhaUsuario">Senha</label>
+    <input type="text" placeholder="digite sua senha">
+    
 </body>
 </html>
