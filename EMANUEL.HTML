@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        background-color: rgb(241, 241, 241);
+    }
+    .sing{
+        display: flex ;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(241, 241, 241);
+        width: 55rem;
+        height: 100vh;
+        border: 1px;
+    }
+    .titulo{
+        
+    }
+    #name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 16rem;
+        border: gray solid 1px;
+        font-weight: bolder ;
+        color: black;
+    }
+    #linha{
+        width: 10rem;
+        border-bottom: 1px black solid;
+    }
+    #botao{
+        border: 1px solid black;
+        border-radius: 5px;
+        color: antiquewhite;
+        background-color: black;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 16rem;
+        display: flex;
+        justify-content: center ;
+        
+    }
+    #botao:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        transition: 1s;
+    }
+
+    #google{
+        display: flex;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 16rem;
+        display: flex;
+        justify-content: center ;
+        
+    }
+    #google:hover{
+        cursor: pointer;
+        color: brown;
+    }
+
+    .text_goo{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+    }
+ 
+    .img{
+        height: 20px;
+    }
+
+    #apple{
+        display: flex;
+    }
+
+    .descripition{
+        text-align: center;
+    }
+
+    .back{
+        background-image: url('https://www.adrenaline.com.br/wp-content/uploads/2024/03/Sistema-do-Steam-que-esconde-jogos-vergonhosos-sai-do-Beta.jpg');
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .conta{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        
+    }
+    .paragrafo{
+        color: white;
+        padding: 20px;
+        display: flex;
+        align-items: end;
+        font-size: 30px;
+        justify-content: end;
+        text-shadow: 5px 0px purple;
+    }
+</style>
+<body>
+  
+    <div class="container">
+        <div class="sing">
+            <h1 class="titulo">Sing In</h1>
+            <br>
+            <p>Welcome Back Please enter your details</p>
+            <br> 
+            <input type="text" id="name" placeholder="Name"> 
+            <br>
+            <input type="password" id="name" placeholder="Password"> <br>
+            <div id="botao">
+                <p >Continue</p>
+            </div>
+            <br>
+            <div id="linha"></div>
+            <br>
+            <div class="conta">
+            
+            <div id="google">
+                <div>
+                    <img class="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA4CAMAAABuU5ChAAAA+VBMVEX////pQjU0qFNChfT6uwU0f/O4zvs6gfSJr/j6twDoOisjePPoNSXpPjDrWU/oLRr+9vZ7pff/vAAUoUAkpEn0ran619b82pT7wgD+68j947H/+e7//PafvPm/0vuBw5Df7+P63tz3xcPxl5HnJQ7qUEXxj4n4z83zoJzqSz/vgXrucWrsY1r1tbHrSBPoOjbvcSr0kx74rRH80XntZC3xhSPmGRr86+r4sk/936EJcfPS3/yowvnbwVKjsTjx9f5urEjkuBu9tC+ErkJyvoRRpj2az6hWs23j6/0emX2z2btAiuI8k8AyqkE5nZU1pGxCiOxVmtHJ5M+PSt3WAAACGElEQVRIieWSa3fSQBCGk20CJRcW2AWKxgJtqCmieNdatV5SUtFq5f//GJeE7CXJJOT4TZ+PO+c58+7MaNr/SWd60mecTDs1pMFp28dODPZnZw/369TXseXqHNfCblDdte84krTDwUFFwnMnJyXm+bSsmZ/vlcb1+6A2x5C1xYeyPgIyJlhtYDjzjOYyZA3oFighLYxni8UMY6dCG/jy9KzTQfI8DXSnTNN0kcl1lNE9dlxYC8TnnEVmAJ02qHlPllyb58vgmQ2Np0tYgzGMo2ex6IKRihi1mPhcZyYuO8McL4yYl0vrrI6mJZpx9Or1mzqa10rFt8p7o5ArXh+lXutC8d6ZBdiXvH6PeyPFsw8KMBu8fsG9+3t473l9yD1vD+/BX3v1cgqv3lzE/8A9NCUK5sn33vugeN1DQTcVTbG/9M56H+lEAzg2d54t7iW5657xCdEx5PF+B9Lj9oO9z4hBgIZX6YyaXfmZaV9QQkU781h+Hra+7jQaFv6Or8RW3r1rhErES641D9XKigox8jJaQxyAfZOpIQm6kiuT6BvfujqVuEpkkY43u+d1RBBF35v55aVJidKSEBRFiJAk/+0PM3NjgjFFMLc/WVYzlzImLBPprzvzrlBjHUmZSH8DmqatS0QSZtcjTxUBWSlZw1bckhaYlISTcm1rIqKolJJxtRWnXUVscTFsjWFFwoy7WTM2+zX69/gDaLcy7SET9nsAAAAASUVORK5CYII=" alt="">
+                </div>
+                <p class="text_goo">Enter with Google</p>
+            </div> 
+     
+            <div id="google">
+                <img class="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA4CAMAAAC16DqDAAAAYFBMVEUAAAD////Q0NDs7Oy0tLTh4eHl5eWIiIj09PTv7++mpqZsbGzW1ta9vb3Nzc3GxsZ5eXkmJiZRUVFGRkagoKBdXV1lZWUJCQlYWFgaGho3Nzc+Pj6RkZEsLCyBgYGZmZkcsrAEAAABfklEQVRIiZXW67qEEBQG4KVU0vk8NYd9/3e5EyYqY/X9i/fxCFkB+RlGsyk3nuGnTmBNgOQ5bIlwvJDaEm5eKv1AcaY0FCieKT1brS4e68ErFE+Uru1mF58v3tPN2eXYTh4J3FSndgcPYanP+MCjIIjsblZSTsv0gtNWzneguiXtn2p9mldocw5GPuLMFgNYbQZnTzjkfWyAKdY8PPVdJpKc+aVMuPHTTBzpNs79cEst535Dr7xHzkQtZIPjcp8g9kuRRO0qvTM4gQ9KL/qIPe7MhcCC4lzzCcX1oUZhg88o3t+be6b54LcimuPWXd99gDy+neKln26RawPoLy+WBxi3NMoDeWG5eF3Q9Q2TLF0XFPk5ibxXjvxYRTjcuJVgXcb1dZEbK06O4CmWx/JKTfxSDq4ubBxnmlcYzffqUft1axabc7W4mMrOvQWktEoZ8Zx7ddHshbIwe7txbM3nP3LkJNB9mfpZy7/b/f0Fsqp230EzUma00LpbBr4//wMdDAv1O/ylsQAAAABJRU5ErkJggg==" alt="">
+                <p class="text_goo">Enter with Apple</p>
+            </div>
+            <div id="google">
+                <img class="img" src= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADFUlEQVR4Ab2XA4ycURSFJ52pbdu27TZOEau2bRtRGaO2g9q2bdva3a8nufXg/cubfLuDO++eh3vmjc9LpOpKQJQSvcRqcUW8E1EG78RVsUb0FqVFwDGs58I1xAJx24qBgyjLZaGoKQJxLZ5bTBfPBHHkmZgh8sS2eDWxV8QIEoB9oobX4o3EFYEXUnYxUnSG5AYphL3+dy5XRRNX8epW3FvhgBUie18oPhwqjIFyo6HIUHstTbeQImqEK57Hlh1cpOhigzebBQt2wdFbcOcFPHkLj9/AzWdw/Ba0nW8rEmI78v5fPJmY7nXmWXrDtC3w+iMRY9AK8HcKOc5M4f9bQE3x1F3c/o9eB9+iAOIs4Jmo9au43/ocImPLWWkc3HsJEA8BxiLh95lrcUvgItDJBg0VMTHw6DXsugzrT8Km09Au9BkwzKzK+sxe+e5l+VPr/9LDhIwdF6HaBMjY0w5o2u5BXRDKMfv4zNu9Hb5MvWDPFYLiwxdoPReSdbS8v3GMu87nve+tt4/dIihuP4diw8yALN8z1ySAt67C5nKQrQ+cuE1QXH0M+QdBoJPlGp5W4L0EEBWpeIYeUHSYzbDyODh3n6C49QxqT7YcOaKwz+izLhExEQTYrGtOgksP4e4La78v3wkKeQL3X5kbCuXByTtQZpSN4RLwNlLbNZgG7z4T6zh7D/IMMNt2bcGVxBCw/pS1omMLrksAaxJDwIxttvwS4GzD3mGMSAOYuRy+YYfvwgP4+JWg+PLNzsnZe5Z3VrSfbxNwXN36SgBlxK3QXWDLmKu/UWIEnLlHUNx4ChXGKqcf5O5vpHd3wJ1fVuwXCyP6gHmBjCi8DxQYBFoxy/XmgouF3+PXsQ2YI5yAJ1BwsBX2flml9t/3Ab+YkYQCZgl/qCvZviQQsF/kDXcvrCGuJqKAa6Km62bcWFxNcAFWvGlwxfArsT8BBRxwzDzsNX2meB4PAc/FLJE3Pj9Oa4pFGvyOBER5EBAl7lifUyvBfiXLVsvkHUifiw9ZB1wX70UM4voT3hcewnUZ0Trl9hVlvBb+AQNcQrB9dXA4AAAAAElFTkSuQmCC" alt="">
+                <p class="text_goo">Enter with Facebook</p>
+        </div>
+    </div>
+        <br>
+        <div class="descripition">
+            <p>By signing in or creating an account, you agree 
+            with <br> our <a href="">Term & Conditions</a> and <a href="">Privacy Statement</a></p>
+            </div>
+            
+    </div>
+    <div class="back">
+        <p class="paragrafo">"Every games in your hands"
+            <br>
+            "Because this plataform is awesome"
+            <br>
+            <br>
+            <i>- Elon Musk</i>
+        </p>
+    </div>
+
+</body>
+</html>

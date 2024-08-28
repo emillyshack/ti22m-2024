@@ -1,6 +1,11 @@
+
+// o "." nos da opção de tudo que podemos fazer no DOM
+
+let inputPeso = document.getElementById("peso")
+let inputAltura = document.getElementById("altura")
 // Entrada
-let peso = Number(prompt("Informe seu peso"))
-let altura = Number(prompt("Informe sua altura"))
+let peso = Number(document.getElementById("peso").value)
+let altura = Number(document.getElementById("altura").value)
 // Processamento
 let imc = peso/(altura*altura)
 // saída
