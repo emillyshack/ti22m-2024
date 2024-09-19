@@ -1,1 +1,0 @@
-// toda func tem parametros q vão dentro da entrada
