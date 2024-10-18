@@ -1,6 +1,6 @@
 let inputAlc = document.getElementById("alc");
 let inputGasosa = document.getElementById("gasosa");
-let saida = document.getElementById("Saida");
+let saida = document.getElementById("saida");
 let botao = document.getElementById("button");
 
 botao.onclick = medida;

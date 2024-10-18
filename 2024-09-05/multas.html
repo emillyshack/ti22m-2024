@@ -42,13 +42,13 @@
         <div class="box"> 
             <p>velocidade máxima</p>
             <label for="velocidade"></label>
-            <input type="number">
+            <input id="velocidade" type="number">
 
             <p>velocidade do veículo</p>
             <label for="veiculo"></label>
-            <input type="number">
-            <div> <p class="calcular">Calcular</p> </div>
-            
+            <input id="veiculo" type="number">
+            <br>
+            <button class="botaoCalcular" id="calcular"> Calcular</button> 
         </div>
         <br>
         <div class="box">
@@ -57,10 +57,11 @@
             <p>  <strong>R$ 195,23</strong>- De 20% até 50% acima do limite permitido</p>
             <p> <strong>R$ 880,41 </strong>- Acima de 50% do limite permitido</p>
         </div>
+        <div id="saida"></div>
+
 
     </div>
-    <div id="saida"></div>
-
+    
     
 </body>
 </html>
