@@ -3,28 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Tabler Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
     />
-    <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind</title>
+    <style>
+        .fa{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
   </head>
-  <body><div>
-    <div class="flex"> 
-        <div class="bg-gray-950 w-60  h-screen justify-between ">
-            <div class="w-60 ">
+  <body>
+    <div class="flex m-0 pe-0 h-screen "> 
+        <div class="bg-gray-950 w-60  h-screen">
+            <div class="w-60 h align-center">
                 <i class="ti ti-brand-tailwind text-3xl text-white"></i>
                 <strong class="text-white"> Tailwind </strong>
               </div>
               <br>
               <div class="h-screen ">
-                <div class="text-white"><i class="ti ti-home"></i> <p>Home</p></div>
-               <div class="text-white"> <i class="ti ti-address-book"></i><p>Contato</p></div>
-                <div class="text-white"> <i class="ti ti-info-circle"></i> <p>Sobre</p></div>
+        
+                <div class="text-white flex items-center"> <i class="ti ti-home text-white pl-3"></i><p class="pl-3">Home</p></div>
+                <br>
+               <div class="text-white flex items-center pl-3"> <i class="ti ti-address-book"></i><p class="pl-3">Contato</p></div>
+               <br>
+                <div class="text-white flex items-center"> <i class="ti ti-info-circle pl-3"></i> <p class="pl-3">Sobre</ ></div>
             </div>
             
         </div>
@@ -32,16 +38,13 @@
             <div class="bg-gray-800 h-12">
                 <h2 class="text-white"><strong> Home</strong> </h2>
                 <p class="text-slate-400">Página inicial</p>
-            </div>
-            <div class="bg-gray-900 h-full">
+            </div> 
+            <div class="bg-gray-900 h-screen">
                 <div class="text-white"> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad natus saepe excepturi, quibusdam laborum officia, omnis doloremque beatae corporis odio cum aperiam! Perspiciatis qui explicabo dolores nostrum! Impedit, inventore quasi.</p>
+
                 </div>
             </div>
         </div>
-        
-    
-    
     </div>
-</div>
   </body>
 </html>
