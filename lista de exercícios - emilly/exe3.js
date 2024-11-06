@@ -1,3 +1,4 @@
+console.log("Exercício 3")
 function countOccurrences(arr, element){
     let x = 0;
     for (let i = 1; i < arr.length; i++){ 

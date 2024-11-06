@@ -1,3 +1,4 @@
+console.log("Exercício 2")
 function findMax(arr){ 
     let max = arr[0]; // arr[a] a é o índice do elemento do meu array. Aqui começa no primeiro.
     for (let i = 1; i < arr.length; i++) { // lenght é o valor total dos elementos dentro do arr

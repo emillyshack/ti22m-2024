@@ -1,3 +1,4 @@
+console.log("Exercício 7")
 function mergeArrays(arr1, arr2) {
     return [...arr1, ...arr2];
 }

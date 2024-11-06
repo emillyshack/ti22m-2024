@@ -1,3 +1,4 @@
+console.log("Exercício 10")
 function findIndex(arr, element) {
     let result = [];
     for (let i = 0; i < arr.length; i++) {

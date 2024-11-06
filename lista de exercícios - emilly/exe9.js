@@ -1,3 +1,4 @@
+console.log("Exercício 9")
 function reverseArray(arr) {
     let revertee = [];
     for (let i = arr.length - 1; i >= 0; i--) {

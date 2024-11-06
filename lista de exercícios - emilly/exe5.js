@@ -1,3 +1,4 @@
+console.log("Exercício 5")
 function removeDuplicates(arr) {
     return [...new Set(arr)];
 }

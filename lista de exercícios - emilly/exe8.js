@@ -1,3 +1,4 @@
+console.log("Exercício 8")
 function getEvenNumbers(arr) {
     let result = [];
     for (let i = 0; i < arr.length; i++) {

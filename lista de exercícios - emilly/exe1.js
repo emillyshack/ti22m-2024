@@ -1,4 +1,4 @@
-console.log("somar números")
+console.log("Exercício 1")
 
 function sumArray(arr){
         let somar = 0;
